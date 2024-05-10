@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="CounterStrikeSharp.API">
+			<HintPath>../counterstrikesharp/api/CounterStrikeSharp.API.dll</HintPath>
+		</Reference>
+		<Reference Include="WestReportSystemApiReborn">
+			<HintPath>C:\Users\Stimayk\Documents\GitHub\WpPluginSources\WestReportSystemApiReborn\bin\Debug\net8.0\WestReportSystemApiReborn.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
